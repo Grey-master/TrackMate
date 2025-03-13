@@ -7,6 +7,7 @@
 	<style>
 .parent {
 	width: 100%;
+	margin: 0px auto;
 	display: grid;
 	grid-template-columns: 1fr;
 	color: rgb(255, 255, 255);
@@ -14,13 +15,16 @@
   
 }
 #head-top {
-	width: 1265px;
-	height: 40px;
+	width: auto;
+	height: 50px;
 	position: absolute;
 	z-index: 3;
-	font-size: 2em;
 	top: 50px;
-	left: 170px;
+	left: 188px;
+	
+}
+#head-top e {
+	font-size: 2em;
 	
 }
 [class^="div-"] {
@@ -101,7 +105,7 @@
 <div class="parent">
 	
 	<div class="div-1"><img src="img/background-1.jpg"/>
-		<div id="head-top">TrackMate1</div>
+		<div id="head-top"><e>TrackMate1</e></div>
 		<div class="div-11">
 			<div class="div-111">	
 			</div>	
